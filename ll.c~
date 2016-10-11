@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct node {int i; node *next;};
+
+void printList(node *a){
+  while(*a.next){
+    printf("%d--->",*a.i);
+    node *h = *(*a.next)
+    
+
+int main(){
+  
+
+  
